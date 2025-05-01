@@ -33,6 +33,7 @@ supabase start
 >bash scripts/update-env.sh
 >```
 > modify the `.env` from the output of `supabase start` or run `supabase status` manually.
+> modify `scheme="postgresql+psycopg"` to `scheme="postgresql+psycopg2` in backend/app/core/db.py if neccessary
 
 ## Test
 
